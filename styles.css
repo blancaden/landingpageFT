@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 
 .content{
 
@@ -5,7 +8,6 @@
     flex-direction: column;
     width: 1280px;
     height: 4050px;
-    background-color:#1B1F23;
     
 }
 
@@ -35,7 +37,6 @@
     margin-right: 10px;
 }
 
-
 .nav-bar ul li a {
     text-decoration: none;
     color:black;
@@ -60,6 +61,79 @@
         align-items: center;
         
 }
+.review{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    background-color:#1B1F23;
+   
+}
+.card-top-text {
+    margin-top: 12%;
+    margin-left: 10%;
+    grid-column: 2;
+    text-align: center;
+    color: #E5F4F2;
+}
 
+.star{
+    color:gold;
+}
 
+.card-img-top{
+    padding: 30px 90px 80px 90px;
+   
+}
+.card-img-top1{
+    padding: 30px 90px 80px 90px;
+    
+}
 
+.rating{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    grid-column: 1;
+    width: 18rem;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    border-radius: 30px
+    
+
+}
+.card2{
+    grid-column: 2;
+    border-radius: 15%;
+}
+
+.card3{
+    grid-column: 3;
+}
+
+.card-body h5{
+
+    margin-top: 2px;
+    text-align: center;
+}
+
+.card-body2 {
+   
+    margin-top: 18px;
+    text-align: center;
+     
+}
+.rating1{
+    margin-top: 22%;
+}
+.img-rev2{
+    width:30% ;
+    margin-block: 10%;
+    margin-left: 30%;
+}
