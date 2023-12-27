@@ -59,6 +59,7 @@
         margin-left: auto;
         padding:20px;
         align-items: center;
+        font-family: 'Poppins', sans-serif;
         
 }
 .review{
@@ -76,6 +77,7 @@
     margin-left: 10%;
     grid-column: 2;
     text-align: center;
+
     color: #E5F4F2;
 }
 
@@ -83,30 +85,35 @@
     color:gold;
 }
 
-.card-img-top{
-    padding: 30px 90px 80px 90px;
-   
-}
-.card-img-top1{
-    padding: 30px 90px 80px 90px;
+.card-img-top, .card-img-top2, .card-img-top3 {
+    /*padding: 30px 90px 80px 90px;*/
+    width: 56px;
+    height: 56px;
     
 }
+
+/*.card-img-top1{
+    padding: 30px 90px 80px 90px;
+    
+}*/
 
 .rating{
     display: flex;
     justify-content: center;
     
 }
-.card{
+.card {
     display: flex;
     grid-column: 1;
-    width: 18rem;
-    margin-top: 10%;
+    /*width: 25rem;*/
+   /* width: 370px;
+   */
+    height: 400.08px;
+   /* margin-top: 10%;
     margin-left: 20%;
     margin-bottom: 20%;
-    border-radius: 30px
+    border-radius: 30px*/
     
-
 }
 .card2{
     grid-column: 2;
