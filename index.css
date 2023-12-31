@@ -1,0 +1,216 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.btm-scroll, .btm-scroll img{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+}
+
+.btm-scroll{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 30px 30px;
+}
+
+.icon-up-arrow:hover{
+    background-color: #009379;
+    border-radius: 30px 30px;
+}
+
+/* SECTION 0 */
+.container-main{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 80px;
+    background-color:#1B1F23;
+    color:white;
+}
+
+.main {
+    height: 700px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.title-p-buttom{
+    height: 430px;
+    gap: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right:40px;
+}
+
+h1, h2, h3, .btm-contactame{
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: 67px;
+    margin:0;
+    font-weight: 700;
+}
+
+p, aside {
+    font-family: 'Mulish';
+    font-size: 21px;
+    line-height: 31.5px;
+}
+
+.btm-contactame{
+    width: 207px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #009379;
+    color: white;
+    border:none;
+}
+
+.btm-contactame, .img-main{
+    border-radius: 20px;
+}
+
+/* SECTION 1 */
+.container-nuestros-valores {
+    background-color: #E5F4F2;
+    width: 1280px;
+    height: 600px;
+    padding: 120px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    color:#1B1F23;
+    border:0;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 41.6px;
+}
+
+h2, h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+figure {
+    background-color: white;
+    width: 370px;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 18px;
+    border-radius: 20px;
+    gap:30px;
+}
+
+.content-nuestros-valores{
+    display: flex;
+    background-color:#E5F4F2;
+}
+
+.icon {
+    width: 82px;
+    height: 82px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.calidad{
+    background-color: rgba(255, 98, 80, 0.2);
+}
+
+.ecofriendly{
+    background-color: #00937933;
+}
+
+.economico {
+    background-color: hsla(43, 90%, 73%, 0.2);
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 26.4px;
+}
+
+/* SECTION 2 */
+.container-top-ventas{
+    width: 1280px;
+    height: 950px;
+    padding: 120px 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#container-top-ventas{
+    background-color:#1B1F23;
+}
+
+.content-top-ventas{
+    display: flex;
+    background-color:#1B1F23;
+}
+
+.h2-top-ventas{
+    color: white;
+}
+
+.content-top-ventas > figure {
+    height: 548px;
+    border-radius: 20px;
+    outline: #1B1F23 solid 20px;
+    padding: 30px;
+}
+
+.producto h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.producto p{
+    padding-top: 12px;
+}
+
+.product{
+    width: 370px;
+    height: 278px;
+}
+
+aside{
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:960){
+}
+
+@media screen and (min-width:1200px){
+
+}
