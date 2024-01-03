@@ -1,0 +1,131 @@
+
+.team {
+    background-color: #E5F4F2;
+    height: 850px;
+}
+
+.team-tittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin:0;
+}
+
+.team-subtittle {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.team-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card1,
+.card2,
+.card3 {
+    height: 459px;
+    width: 370px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card1,
+.card2 {
+    margin-right: 30px;
+}
+
+.photo-card {
+    width: 370px;
+    height: 278px;
+    border-radius: 20px 20px 0 0;
+}
+
+.name-card {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.subname-card {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.redes-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    margin-bottom: 30px;
+}
+
+.twitter-li,
+.dribbble-li,
+.insta-li {
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-color: #E5F4F2;
+    border-radius: 100%;
+    margin-right: 16px;
+    
+}
+
+.twitter-icon, .dribbble-icon, .insta-icon{
+    width: 15px;
+    height: 15px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.twitter-li:hover,.dribbble-li:hover,.insta-li:hover{
+    background-color: #009379;
+}
+
+
+
+/*VERSIÓN MÓVIL-DESKTOP*/
+@media screen and (min-width: 375px) and (max-width: 1200px){
+    .team-list{
+        flex-direction: column;
+    }
+    
+    .team {
+        height: 100%;
+    }
+    
+    .card1,.card2,.card3 {
+        height: 417px;
+        width: 315px;
+    }
+
+    .card1, .card2{
+        margin-right: 0;
+        margin-bottom: 20px ;
+    }
+
+    .card3 {
+        margin-bottom: 60px;
+    }
+    
+    .photo-card{
+        width: 315px;
+        height: 236px;
+    }
+
+}
