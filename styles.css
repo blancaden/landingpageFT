@@ -32,9 +32,10 @@
     margin-right: 10px;
 }
 .headtitulo{
-    font-family: Poppins;
+    font-family:'Poppins', sans-serif;
     font-weight:bold;
     margin-right: 10px;
+    
 }
 
 .nav-bar ul li a {
