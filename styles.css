@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
 }
@@ -45,16 +46,14 @@
     
 }
 
-.nav-bar ul li{
-   
-    display: inline-block;
-    
-   
-}
 
+.content-navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
 .nav-bar {
         
-        display: flex;
         margin-left: auto;
         padding:20px;
         align-items: center;
@@ -127,7 +126,6 @@
 
 .card1{
 
-
     margin-bottom: 120px;
 }
 
@@ -164,3 +162,36 @@
     color: #2D2D2D;
 }
 
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+    .content-navbar{
+        display: none;
+    }
+    
+    .content-navbar{
+
+        flex-direction: column;
+        margin-right: 80px;
+        
+}
+    .card-top-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .review{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .card1, .card2, .card3{
+         
+         width: 315px;
+         height: 417px;
+    
+       
+    
+    }
+  
+}
