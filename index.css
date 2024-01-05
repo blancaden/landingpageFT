@@ -75,23 +75,22 @@
     
 }
 
-.card-top-text h2{
+#textqueopinan{
     
     margin-top: 20px;
     text-align: center;
     color: #E5F4F2;
+
 }
 
-.card-top-text h2, p{
-   
-    margin-top: 50px;
-    text-align: center;
-    color: #E5F4F2;
+#text-leeopiniones{
+    
+    font-size: 16px;
     font-family: 'Mulish', sans-serif;
-}
-.card-top-text h2{
+    color: #E5F4F2;
+    text-align: center;
+    margin-top: 10px;
 
-    font-family: 'Poppins', sans-serif;
 }
 
 .star{
@@ -106,15 +105,15 @@
 }
 
 .rating{
-    margin-top: 20%;
+    margin-top: 10%;
     justify-content: center;
     
 }
 .rating1{
-    margin-top: 26%;
+    margin-top: 20%;
 }
 .rating3{
-    margin-top: 12%;
+    margin-top: -2%;
 }
 
 .card{
@@ -198,7 +197,7 @@
 
 /* CARITO */
 
-/*.btm-scroll, .btm-scroll img{
+.btm-scroll, .btm-scroll img{
     height: 30px;
     width: 30px;
     color: white;
