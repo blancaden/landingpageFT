@@ -116,15 +116,12 @@
     margin-top: -2%;
 }
 
-.card{
-    
-   padding: 20px;
-   text-align: center;
-    
+.card{ 
+    padding: 20px;
+    text-align: center;
 }
 
 .card1{
-
     margin-bottom: 120px;
 }
 
@@ -248,6 +245,7 @@
 
 h1, h2, h3, .btm-contactame{
     font-family: 'Poppins';
+    font-weight: bold;
 }
 
 h1 {
@@ -374,13 +372,15 @@ h3 {
 .content-top-ventas > figure {
     height: 548px;
     border-radius: 20px;
-    outline: #1B1F23 solid 20px;
+    background-color: #ffffff;
     padding: 30px;
+    margin-right: 30px;
 }
 
 .producto h3 {
     display: flex;
     justify-content: flex-start;
+
 }
 
 .producto p{
@@ -392,11 +392,18 @@ h3 {
     height: 278px;
 }
 
+.fig-product{
+    margin-top: 25px;
+}
+
 aside{
     padding-top: 12px;
     font-size: 16px;
 }
 
+#apple {
+    padding-top: 45px;
+}
 
 @media screen and (min-width:375px) and (max-width:1200px){
     /* SECTION 0 */
@@ -449,8 +456,8 @@ p, aside {
 }
 
 .img-main{
-    width: 290px;
-    height: 290px;
+    width: 450px;
+    height: 450px;
 }
 
 /* ANA */
@@ -584,5 +591,38 @@ p, aside {
     }
 
 }
+ 
 
+/*PILAR*/
+.footercontenido {
+    background-color: #E5F4F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Mulish",sans-serif;
+    height: 60px;
+}
+.femweb-footer, .phone-footer, .mail-footer, .adress-footer{
+    font-size: 14px;
+}
 
+.phone-footer, .mail-footer, .adress-footer{
+    padding-top: 6px;
+
+}
+
+.redes-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+}
+
+#icon-phone, #icon-mail , #icon-adress{
+    padding-right: 5px;
+}
+
+#icon-face, #icon-insta, #icon-git{
+padding-right: 5px;
+}
