@@ -292,10 +292,14 @@ p, aside {
     border:0;
 }
 
-h2{
+#text-nuestros-valores{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
     font-size: 32px;
     line-height: 41.6px;
 }
+
+
 
 h2, h3{
     display: flex;
@@ -321,7 +325,7 @@ h2, h3{
     background-color:#E5F4F2;
 }
 
-.icon-economico, .ico-calidad, .icon-ecofriendly {
+.icon-economico, .icon-calidad, .icon-ecofriendly {
     width: 82px;
     height: 82px;
     border-radius: 20px;
@@ -340,65 +344,216 @@ h2, h3{
     background-color: hsla(43, 90%, 73%, 0.2);
 }
 
-h3 {
+.mobile {
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
     font-size: 28px;
     line-height: 26.4px;
 }
 
 /* SECTION 2 */
 .container-top-ventas{
-    width: 1280px;
+    width: 100%;
     height: 950px;
-    padding: 120px 55px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
 }
-
 #container-top-ventas{
     background-color:#1B1F23;
 }
-
 .content-top-ventas{
     display: flex;
     background-color:#1B1F23;
 }
-
-.h2-top-ventas{
-    color: white;
+#txt-top-ventas  {
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 32px;
+    color: #E5F4F2;
 }
-
 .content-top-ventas > figure {
     height: 548px;
     border-radius: 20px;
-    outline: #1B1F23 solid 20px;
+    background-color: #FFFFFF;
     padding: 30px;
+    margin-right: 30px;
 }
 
-.producto h3 {
-    display: flex;
-    justify-content: flex-start;
+.producto{
+    width: 370px;
+    height: 548px;
 }
-
 .producto p{
     padding-top: 12px;
 }
-
 .product {
     width: 370px;
     height: 278px;
+    margin-left: -30px;
 }
-
+.fig-product{
+    margin-top: 25px;
+}
 aside{
     padding-top: 12px;
     font-size: 16px;
 }
 
 
-@media screen and (min-width:375px) and (max-width:1200px){
+
+/* ANA */
+
+.team {
+    background-color:#E5F4F2;
+    height: 850px;
+}
+.team-tittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin:0;
+}
+.team-subtittle {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.team-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.card1,
+.card2,
+.card3 {
+    height: 459px;
+    width: 370px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+.card1,
+.card2 {
+    margin-right: 30px;
+}
+.photo-card {
+    width: 370px;
+    height: 278px;
+    border-radius: 20px 20px 0 0;
+}
+.name-card {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.subname-card {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 6px;
+}
+.redes-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    margin-bottom: 30px;
+}
+.twitter-li,
+.dribbble-li,
+.insta-li {
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-color: #E5F4F2;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+.twitter-icon, .dribbble-icon, .insta-icon{
+    width: 15px;
+    height: 15px;
+    margin-left: 7px;
+    margin-top: 0;
+}
+.twitter-li:hover,.dribbble-li:hover,.insta-li:hover{
+    background-color: #009379;
+}
+
+
+/*VERSIÓN MÓVIL-DESKTOP*/
+@media screen and (min-width: 375px) and (max-width: 1200px){
+    .team-list{
+        flex-direction: column;
+    }
+    
+    .team {
+        height: 100%;
+    }
+    
+    .card1,.card2,.card3 {
+        height: 417px;
+        width: 315px;
+    }
+
+    .card1, .card2{
+        margin-right: 0;
+        margin-bottom: 20px ;
+    }
+
+    .card3 {
+        margin-bottom: 60px;
+    }
+    
+    .photo-card{
+        width: 315px;
+        height: 236px;
+    }
+
+}
+
+ /*pilar*/
+ .footercontenido {
+    background-color: #E5F4F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Mulish",sans-serif;
+    height: 60px;
+}
+.femweb-footer, .phone-footer, .mail-footer, .adress-footer{
+    font-size: 14px;
+}
+.phone-footer, .mail-footer, .adress-footer{
+    padding-top: 6px;
+}
+.redes-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+}
+#icon-phone, #icon-mail , #icon-adress{
+    padding-right: 5px;
+}
+#icon-face, #icon-insta, #icon-git{
+padding-right: 5px;
+}
+
+/* RESPONSIVE */
+/*@media screen and (min-width:375px) and (max-width:1200px){
     /* SECTION 0 */
 /*.container-main{
     width: 375px;
@@ -452,138 +607,3 @@ p, aside {
     width: 290px;
     height: 290px;
 }
-
-/* ANA */
-.team {
-    background-color: #E5F4F2;
-    height: 850px;
-}
-
-.team-tittle {
-    font-family: 'Poppins', sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 20px;
-    margin:0;
-}
-
-.team-subtittle {
-    font-family: 'Mulish', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding-bottom: 30px;
-    margin: 0;
-}
-
-.team-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-.card1,
-.card2,
-.card3 {
-    height: 459px;
-    width: 370px;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-}
-
-.card1,
-.card2 {
-    margin-right: 30px;
-}
-
-.photo-card {
-    width: 370px;
-    height: 278px;
-    border-radius: 20px 20px 0 0;
-}
-
-.name-card {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-    text-align: center;
-    margin: 0;
-    margin-top: 20px;
-}
-
-.subname-card {
-    font-family: 'Mulish', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 6px;
-}
-
-.redes-team {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    padding:0;
-    margin-bottom: 30px;
-}
-
-.twitter-li,
-.dribbble-li,
-.insta-li {
-    display: block;
-    width: 29px;
-    height: 29px;
-    background-color: #E5F4F2;
-    border-radius: 100%;
-    margin-right: 16px;
-    
-}
-
-.twitter-icon, .dribbble-icon, .insta-icon{
-    width: 15px;
-    height: 15px;
-    margin-left: 7px;
-    margin-top: 0;
-}
-
-.twitter-li:hover,.dribbble-li:hover,.insta-li:hover{
-    background-color: #009379;
-}
-
-
-
-/*VERSIÓN MÓVIL-DESKTOP*/
-@media screen and (min-width: 375px) and (max-width: 1200px){
-    .team-list{
-        flex-direction: column;
-    }
-    
-    .team {
-        height: 100%;
-    }
-    
-    .card1,.card2,.card3 {
-        height: 417px;
-        width: 315px;
-    }
-
-    .card1, .card2{
-        margin-right: 0;
-        margin-bottom: 20px ;
-    }
-
-    .card3 {
-        margin-bottom: 60px;
-    }
-    
-    .photo-card{
-        width: 315px;
-        height: 236px;
-    }
-
-}
-
-
- }
