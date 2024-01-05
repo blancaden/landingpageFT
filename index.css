@@ -1,230 +1,198 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 /* BLANCA */
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-.header-nav{
+
+.header-nav {
     display: grid;
     grid-template-columns: 250px auto;
     align-items: center;
     width: 100%;
     height: 100px;
-    background-color:#E5F4F2;
+    background-color: #E5F4F2;
 }
-.logo-content{
+
+.logo-content {
     display: flex;
     align-items: center;
     width: 124%;
-    padding: 20px 20px; 
-    
+    padding: 20px 20px;
+
 }
-.logo-content img{
+
+.logo-content img {
     width: 15.63px;
     height: 20px;
     margin-right: 10px;
 }
-.headtitulo{
+
+.headtitulo {
     font-family: 'Poppins', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     margin-right: 10px;
 }
 
 .nav-bar ul li a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-family: 'Poppins', sans-serif;
-    font-weight:bold;
-    margin-left: 100px ;
-    
+    font-weight: bold;
+    margin-left: 100px;
+
 }
 
 
-.content-navbar{
+.content-navbar {
     display: flex;
     align-items: center;
     list-style: none;
 }
+
 .nav-bar {
-        
-        margin-left: auto;
-        padding:20px;
-        align-items: center;
-        font-family: 'Poppins', sans-serif;
-        
+
+    margin-left: auto;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.content-main{
-    background-color:#1B1F23;
+.content-main {
+    background-color: #1B1F23;
 }
 
-.review{
+.review {
     display: grid;
     grid-template-columns: 370px 370px 370px;
     grid-gap: 30px;
-    padding:20px;
+    padding: 20px;
     justify-content: center;
-    background-color:#1B1F23;
-    
+    background-color: #1B1F23;
+
 }
 
-#textqueopinan{
-    
+#txt-review {
     margin-top: 20px;
     text-align: center;
     color: #E5F4F2;
-
 }
 
-#text-leeopiniones{
-    
+#text-leeopiniones {
     font-size: 16px;
     font-family: 'Mulish', sans-serif;
     color: #E5F4F2;
     text-align: center;
     margin-top: 10px;
-
 }
 
-.star{
-    color:gold;
+.star {
+    color: gold;
 }
 
-.card-img-top1, .card-img-top2, .card-img-top3 {
+.card-img-top1,
+.card-img-top2,
+.card-img-top3 {
     margin-left: 40%;
     width: 56px;
     height: 56px;
-    
+
 }
 
-.rating{
+.rating {
     margin-top: 10%;
     justify-content: center;
-    
+
 }
-.rating1{
+
+.rating1 {
     margin-top: 20%;
 }
-.rating3{
+
+.rating3 {
     margin-top: -2%;
 }
 
-.card{ 
+.card {
     padding: 20px;
     text-align: center;
 }
 
-.card1{
+.rev1,
+.rev2,
+.rev3 {
     margin-bottom: 120px;
 }
 
-.card2{
-    margin-bottom: 120px;
-}
-
-.card3{ 
-    margin-bottom: 120px;
-}
-
-.card-body h5{
+.card-body h5 {
 
     margin-top: 2px;
     text-align: center;
 }
 
 .card-body2 {
-    
+
     margin-top: 18px;
     text-align: center;
-     
+
 }
 
-.card-title{
+.card-title {
     font-weight: 600px;
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
 }
-.card-text{
-    
+
+.card-text {
+
     font-size: 16px;
     font-family: 'Mulish', sans-serif;
     color: #2D2D2D;
 }
 
-@media screen and (min-width: 375px) and (max-width: 1200px) {
-    .content-navbar{
-        display: none;
-    }
-    
-    .content-navbar{
 
-        flex-direction: column;
-        margin-right: 80px;
-        
-}
-    .card-top-text{
-        display: flex;
-        flex-direction: column;
-    }
-    .review{
-        display: flex;
-        flex-direction: column;
-        padding: 50px;
-        justify-content: center;
-        align-items: center;
-       
-    }
-    .card1, .card2, .card3{
-         
-         width: 315px;
-         height: 417px;
-    
-       
-    
-    }
-  
-}
 
 /* CARITO */
 
-.btm-scroll, .btm-scroll img{
+.btm-scroll img {
     height: 30px;
     width: 30px;
-    color: white;
-    background-color: white;
     text-decoration: none;
     text-align: center;
     padding: 0;
 }
 
-.btm-scroll{
+.btm-scroll {
     position: fixed;
     bottom: 40px;
     right: 50px;
-    border-radius: 30px 30px;
+    border-radius: 30px;
 }
 
-.icon-up-arrow:hover{
+.icon-up-arrow:hover {
     background-color: #009379;
-    border-radius: 30px 30px;
+    border-radius: 30px;
 }
+
+
 
 /* SECTION 0 */
-.container-main{
+.container-main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 120px 80px;
-    background-color:#1B1F23;
-    color:white;
+    background-color: #1B1F23;
+    color: white;
 }
 
 
@@ -234,43 +202,48 @@
     flex-flow: row nowrap;
 }
 
-.title-p-buttom{
+.title-p-buttom {
     height: 430px;
     gap: 18px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-right:40px;
+    padding-right: 40px;
 }
 
-h1, h2, h3, .btm-contactame{
+h1,
+h2,
+h3,
+.btm-contactame {
     font-family: 'Poppins';
     font-weight: bold;
 }
 
 h1 {
     font-size: 67px;
-    margin:0;
+    margin: 0;
     font-weight: 700;
 }
 
-p, aside {
+p,
+aside {
     font-family: 'Mulish';
     font-size: 21px;
     line-height: 31.5px;
 }
 
-.btm-contactame{
+.btm-contactame {
     width: 207px;
     height: 60px;
     font-size: 16px;
     line-height: 24px;
     background-color: #009379;
     color: white;
-    border:none;
+    border: none;
 }
 
-.btm-contactame, .img-main{
+.btm-contactame,
+.img-main {
     border-radius: 20px;
 }
 
@@ -286,20 +259,21 @@ p, aside {
     flex-direction: column;
     gap: 50px;
     position: relative;
-    color:#1B1F23;
-    border:0;
+    color: #1B1F23;
+    border: 0;
 }
 
-#text-nuestros-valores{
+#text-nuestros-valores {
     font-family: 'Poppins', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 32px;
     line-height: 41.6px;
 }
 
 
 
-h2, h3{
+h2,
+h3 {
     display: flex;
     justify-content: center;
     position: relative;
@@ -315,42 +289,44 @@ h2, h3{
     align-items: center;
     margin: 0 18px;
     border-radius: 20px;
-    gap:30px;
+    gap: 30px;
 }
 
-.content-nuestros-valores{
+.content-nuestros-valores {
     display: flex;
-    background-color:#E5F4F2;
+    background-color: #E5F4F2;
 }
 
-.icon-economico, .icon-calidad, .icon-ecofriendly {
+.icon-economico,
+.icon-calidad,
+.icon-ecofriendly {
     width: 82px;
     height: 82px;
     border-radius: 20px;
     padding: 20px;
 }
 
-.calidad{
-    background-color: rgba(255, 98, 80, 0.2);
+.icon-calidad {
+    background-color: #FFE0DC;
 }
 
-.ecofriendly{
-    background-color: #00937933;
+.icon-ecofriendly {
+    background-color: #CCE9E4;
 }
 
-.economico {
-    background-color: hsla(43, 90%, 73%, 0.2);
+.icon-economico {
+    background-color: #FEF7E5;
 }
 
 .mobile {
     font-family: 'Poppins', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 28px;
     line-height: 26.4px;
 }
 
 /* SECTION 2 */
-.container-top-ventas{
+.container-top-ventas {
     width: 100%;
     height: 950px;
     display: flex;
@@ -359,20 +335,24 @@ h2, h3{
     flex-direction: column;
     gap: 30px;
 }
-#container-top-ventas{
-    background-color:#1B1F23;
+
+#container-top-ventas {
+    background-color: #1B1F23;
 }
-.content-top-ventas{
+
+.content-top-ventas {
     display: flex;
-    background-color:#1B1F23;
+    background-color: #1B1F23;
 }
-#txt-top-ventas  {
+
+#txt-top-ventas {
     font-family: 'Poppins', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 32px;
     color: #E5F4F2;
 }
-.content-top-ventas > figure {
+
+.content-top-ventas>figure {
     height: 548px;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -380,37 +360,38 @@ h2, h3{
     margin-right: 30px;
 }
 
-.producto{
+.producto {
     width: 370px;
     height: 548px;
 }
-.producto p{
+
+.producto p {
     padding-top: 12px;
 }
+
 .product {
     width: 370px;
     height: 278px;
     margin-left: -30px;
 }
-.fig-product{
+
+.fig-product {
     margin-top: 25px;
 }
-aside{
+
+aside {
     padding-top: 12px;
     font-size: 16px;
-}
-
-#apple {
-    padding-top: 45px;
 }
 
 
 /* ANA */
 
 .team {
-    background-color:#E5F4F2;
+    background-color: #E5F4F2;
     height: 850px;
 }
+
 .team-tittle {
     font-family: 'Poppins', sans-serif;
     font-size: 38px;
@@ -418,8 +399,9 @@ aside{
     text-align: center;
     padding-top: 120px;
     padding-bottom: 20px;
-    margin:0;
+    margin: 0;
 }
+
 .team-subtittle {
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
@@ -427,12 +409,14 @@ aside{
     padding-bottom: 30px;
     margin: 0;
 }
+
 .team-list {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
 }
+
 .card1,
 .card2,
 .card3 {
@@ -441,15 +425,18 @@ aside{
     background-color: white;
     border-radius: 20px 20px 20px 20px;
 }
+
 .card1,
 .card2 {
     margin-right: 30px;
 }
+
 .photo-card {
     width: 370px;
     height: 278px;
     border-radius: 20px 20px 0 0;
 }
+
 .name-card {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
@@ -458,20 +445,23 @@ aside{
     margin: 0;
     margin-top: 20px;
 }
+
 .subname-card {
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
     text-align: center;
     margin-top: 6px;
 }
+
 .redes-team {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    padding:0;
+    padding: 0;
     margin-bottom: 30px;
 }
+
 .twitter-li,
 .dribbble-li,
 .insta-li {
@@ -482,129 +472,217 @@ aside{
     border-radius: 100%;
     margin-right: 16px;
 }
-.twitter-icon, .dribbble-icon, .insta-icon{
+
+.twitter-icon,
+.dribbble-icon,
+.insta-icon {
     width: 15px;
     height: 15px;
     margin-left: 7px;
     margin-top: 0;
 }
-.twitter-li:hover,.dribbble-li:hover,.insta-li:hover{
+
+.twitter-li:hover,
+.dribbble-li:hover,
+.insta-li:hover {
     background-color: #009379;
 }
 
 
-/*VERSIÓN MÓVIL-DESKTOP*/
-@media screen and (min-width: 375px) and (max-width: 1200px){
-    .team-list{
-        flex-direction: column;
-    }
-    
-    .team {
-        height: 100%;
-    }
-    
-    .card1,.card2,.card3 {
-        height: 417px;
-        width: 315px;
-    }
-
-    .card1, .card2{
-        margin-right: 0;
-        margin-bottom: 20px ;
-    }
-
-    .card3 {
-        margin-bottom: 60px;
-    }
-    
-    .photo-card{
-        width: 315px;
-        height: 236px;
-    }
-
-}
-
- /*pilar*/
- .footercontenido {
+/* PILAR */
+.footercontenido {
     background-color: #E5F4F2;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-family: "Mulish",sans-serif;
+    font-family: "Mulish", sans-serif;
     height: 60px;
 }
-.femweb-footer, .phone-footer, .mail-footer, .adress-footer{
+
+.femweb-footer,
+.phone-footer,
+.mail-footer,
+.adress-footer {
     font-size: 14px;
 }
-.phone-footer, .mail-footer, .adress-footer{
+
+.phone-footer,
+.mail-footer,
+.adress-footer {
     padding-top: 6px;
 }
-.redes-footer{
+
+.redes-footer {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     padding-top: 10px;
 }
-#icon-phone, #icon-mail , #icon-adress{
+
+#icon-phone,
+#icon-mail,
+#icon-adress {
     padding-right: 5px;
 }
-#icon-face, #icon-insta, #icon-git{
-padding-right: 5px;
+
+#icon-face,
+#icon-insta,
+#icon-git {
+    padding-right: 5px;
 }
+
 
 /* RESPONSIVE */
-/*@media screen and (min-width:375px) and (max-width:1200px){
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+
+    /*navbar responsive*/
+    .content-navbar {
+        display: none;
+    }
+
+    .content-navbar {
+
+        flex-direction: column;
+        margin-right: 80px;
+
+    }
+
     /* SECTION 0 */
-/*.container-main{
-    width: 375px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 120px 80px; */
-    /*background-color:#1B1F23;
-    color:white;
-}
+    .container-main {
+        flex-direction: column;
+        padding: 60px 20px;
+    }
 
-.title-p-buttom{
-    gap: 18px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-right:40px;
-}
+   
 
-h1, h2, h3, .btm-contactame{
-    font-family: 'Poppins';
-}
+    .title-p-buttom h1 {
+        font-size: 32px;
+        text-align: center;
+    }
 
-h1 {
-    font-size: 67px;
-    margin:0;
-    font-weight: 700;
-}
+    .title-p-buttom p {
+        font-size: 16px;
+        text-align: center;
+    }
 
-p, aside {
-    font-family: 'Mulish';
-    font-size: 21px;
-    line-height: 31.5px;
-}
+    .title-p-buttom {
+        margin: auto;
+    }
 
-.btm-contactame{
-    width: 207px;
-    height: 60px;
-    font-size: 16px;
-    line-height: 24px;
-    background-color: #009379;
-    color: white;
-    border:none;
-}
+    .img-main {
+        width: 290px;
+        height: 290px;
+    }
 
-.btm-contactame, .img-main{
-    border-radius: 20px;
-}
+    .btm-contactame {
+        margin: auto;
+    }
 
-.img-main{
-    width: 450px;
-    height: 450px;
+    /* SECTION 1 */
+    .content-nuestros-valores {
+        flex-direction: column;
+    }
+
+    .container-nuestros-valores {
+        height: 1000px;
+    }
+
+    #text-nuestros-valores {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .section1 {
+        width: 315px;
+        margin-bottom: 30px;
+    }
+
+    /*SECTION 2*/
+
+    .content-top-ventas {
+        flex-direction: column;
+        width: 315px;
+    }
+
+    .container-top-ventas {
+        height: 1900px;
+    }
+    .product{
+        width: 315px;
+    }
+
+    .producto{
+        width: 315px;
+    }
+    
+    /*SECTION 3*/
+
+    .team-list {
+        flex-direction: column;
+    }
+
+    .team {
+        height: 100%;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        height: 417px;
+        width: 315px;
+    }
+
+    .card1,
+    .card2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .card3 {
+        margin-bottom: 60px;
+    }
+
+    .photo-card {
+        width: 315px;
+        height: 236px;
+    }
+
+    /*SECTION 4*/
+    .card-top-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #txt-review{ margin-top: 120px;}
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rev1,
+    .rev2,
+    .rev3 {
+        width: 315px;
+        height: 454px;
+    }
+
+    /*footer*/
+    .footercontenido {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .femweb-footer{
+        margin-top: 60px;
+    }
+
+    .redes-footer{
+        margin-bottom: 60px;
+    }
 }
