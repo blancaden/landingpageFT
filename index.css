@@ -387,7 +387,7 @@ h3 {
     padding-top: 12px;
 }
 
-.product{
+.product {
     width: 370px;
     height: 278px;
 }
@@ -413,7 +413,7 @@ aside{
     justify-content: center;
     align-items: center; */
     /* padding: 120px 80px; */
-    background-color:#1B1F23;
+    /*background-color:#1B1F23;
     color:white;
 }
 
@@ -625,4 +625,4 @@ p, aside {
 
 #icon-face, #icon-insta, #icon-git{
 padding-right: 5px;
-}
+} }
